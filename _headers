@@ -1,6 +1,8 @@
-[[redirects]]
-  from = "/search"
-  to = "https://www.mezdunaame.tk/"
-  status = 200
-  force = true
-  headers = {X-From = "Netlify"}
+/https://www.mezdunaame.tk/
+  # headers for that path:
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+# another path:
+/https://www.mezdunaame.tk/success.html
+  # headers for that path:
+  X-Frame-Options: SAMEORIGIN
