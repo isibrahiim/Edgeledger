@@ -1,8 +1,6 @@
-/mezdunaame/index.html
-  # headers for that path:
-  X-Frame-Options: DENY
-  X-XSS-Protection: 1; mode=block
-# another path:
-/templates/success.html
-  # headers for that path:
-  X-Frame-Options: SAMEORIGIN
+[[redirects]]
+  from = "/search"
+  to = "https://api.mysearch.com"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
