@@ -1,8 +1,8 @@
-/https://www.mezdunaame.tk/
+/mezdunaame/index.html
   # headers for that path:
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
 # another path:
-/https://www.mezdunaame.tk/success.html
+/templates/success.html
   # headers for that path:
   X-Frame-Options: SAMEORIGIN
